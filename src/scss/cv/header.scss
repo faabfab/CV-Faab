@@ -1,0 +1,36 @@
+@import "./utils.scss";
+
+header {
+  background-color: $header-bg;
+  background-image: url("./img/header-bg.png");
+  & .header {
+    &_bg {
+      position: absolute;
+    }
+    &_text {
+      margin: 20px;
+      height: 85px;
+      position: relative;
+      top: 20px;
+    }
+    &_bottom {
+      font-size: 11px;
+      & img {
+        position: absolute;
+      }
+      &_text {
+        color: $soft-grey;
+        position: relative;
+        padding-left: 20px;
+        & a {
+          color: $light-grey;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  & h1,
+  & h2 {
+    color: $dark-grey;
+  }
+}

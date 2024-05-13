@@ -1,0 +1,52 @@
+@import "./utils.scss";
+
+.left {
+  width: 170px;
+  &_bg {
+    position: absolute;
+    width: 170px;
+    height: 345px;
+  }
+  &_content {
+    position: relative;
+    & img {
+      position: initial;
+      margin: 10px;
+      width: 150px;
+    }
+    &_location {
+      position: relative;
+      top: -40px;
+      color: white;
+      font-size: 11px;
+      width: 170px;
+      text-align: center;
+    }
+    &_contact {
+      padding-left: 10px;
+      padding-right: 10px;
+      position: relative;
+      width: 150px;
+      &_items {
+        color: $header-bg;
+        &_item {
+          background-color: black;
+          margin-bottom: 3px;
+          & img {
+            position: absolute;
+          }
+          &_global {
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 5px;
+          }
+          &_title {
+            font-size: 11px;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

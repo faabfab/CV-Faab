@@ -1,0 +1,15 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+// colors
+$dark-grey: #34515fff;
+$soft-grey: rgb(155, 174, 184);
+$light-grey: rgb(211, 211, 211);
+$header-bg: #b3bc6dff;
+
+h1,
+h2 {
+  margin: 0px;
+  font-family: "Marvel", sans-serif;
+}

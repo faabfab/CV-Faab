@@ -1,0 +1,12 @@
+{
+  "firstname": "Escobar",
+  "lastname": "Fabrice",
+  "email": "escobar.fabrice@free.fr",
+  "url": "http://original-webdesign.com",
+  "title": "Développeur front-end",
+  "adress": "27 rue Saint Antoine 34070 Montpellier",
+  "tel": "06 50 67 23 10",
+  "birthdate": "31/10/1972",
+  "pict": "./pict/identiteFab.jpg",
+  "city": "Montpellier"
+}
