@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Front-end",
+    "elements": [
+      {
+        "type": "Languages",
+        "list": [
+          {
+            "name": "HTML",
+            "badge": "html5"
+          },
+          {
+            "name": "Javascript",
+            "badge": "javascript"
+          },
+          {
+            "name": "CSS",
+            "badge": "css3&logoColor=1572B6"
+          }
+        ]
+      },
+      {
+        "type": "Libraries",
+        "list": [
+          {
+            "name": "REACT",
+            "badge": "react"
+          },
+          {
+            "name": "Redux",
+            "badge": "redux&logoColor=764ABC"
+          }
+        ]
+      },
+      {
+        "type": "Framework",
+        "list": [
+          {
+            "name": "Sass",
+            "badge": "sass"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "API",
+    "elements": [
+      {
+        "type": "Outils",
+        "list": [
+          {
+            "name": "Postman",
+            "badge": "postman"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Back-end",
+    "elements": [
+      {
+        "type": "Languages",
+        "list": [
+          {
+            "name": "PHP",
+            "badge": "php"
+          },
+          {
+            "name": "SQL",
+            "badge": "sql"
+          }
+        ]
+      },
+      {
+        "type": "Framework",
+        "list": [
+          {
+            "name": "Symfony",
+            "badge": "symfony&logoColor=black"
+          }
+        ]
+      },
+      {
+        "type": "Base de données",
+        "list": [
+          {
+            "name": "MySQL",
+            "badge": "mysql"
+          },
+          {
+            "name": "MongoDB",
+            "badge": "mongodb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Versioning",
+    "elements": [
+      { "type": "Système", "list": [{ "name": "Git", "badge": "git" }] },
+      {
+        "type": "Plateforme",
+        "list": [{ "name": "Github", "badge": "github&logoColor=black" }]
+      }
+    ]
+  }
+]

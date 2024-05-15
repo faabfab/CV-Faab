@@ -3,4 +3,15 @@
   &_left {
     width: 170px;
   }
+  &_content {
+    width: 373px;
+  }
+  &_competences {
+    width: 210px;
+    padding-right: 10px;
+  }
+  &_content,
+  &_competences {
+    padding-left: 20px;
+  }
 }

@@ -1,0 +1,15 @@
+.competences {
+  & h3 {
+    margin-top: 20px;
+  }
+  &_elements {
+    & p {
+      font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 3px;
+    }
+    & img {
+      margin-right: 3px;
+    }
+  }
+}

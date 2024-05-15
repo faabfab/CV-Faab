@@ -5,7 +5,7 @@
   &_bg {
     position: absolute;
     width: 170px;
-    height: 345px;
+    height: 615px;
   }
   &_content {
     position: relative;
@@ -22,11 +22,15 @@
       width: 170px;
       text-align: center;
     }
-    &_contact {
+    &_contact,
+    &_presentation {
       padding-left: 10px;
       padding-right: 10px;
       position: relative;
       width: 150px;
+      margin-bottom: 20px;
+    }
+    &_contact {
       &_items {
         color: $header-bg;
         &_item {
@@ -46,6 +50,13 @@
             padding-left: 5px;
           }
         }
+      }
+    }
+    &_presentation {
+      & p {
+        margin: 0px;
+        margin-top: 5px;
+        font-size: 13px;
       }
     }
   }

@@ -1,0 +1,37 @@
+- Front-end:
+  - Langages:
+    - HTML
+    - Javascript
+    - CSS
+  - Librairies:
+    - REACT
+    - Redux
+  - Framework:
+    - Sass
+- API:
+  - Outils:
+    - Postman
+    - Bruno
+- Back-end:
+  - Langages:
+    - PHP
+    - SQL
+  - Librairies:
+  - Framework:
+    - Symphony
+  - Base de données:
+    - MySQL
+    - MongoDB
+- Versioning:
+  - Git
+  - Github
+- Gestion de projet:
+  - Notion
+  - Trello
+- Conception:
+  - Draw.io
+- Graphisme:
+  - Figma
+  - Lunacy
+  - Gimp
+  - Inkscape

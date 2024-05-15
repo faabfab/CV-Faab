@@ -4,6 +4,7 @@ import User from "./../datas/user.json";
 import Left from "../components/cv/Left";
 import Content from "../components/cv/Content";
 import "./../scss/cv/cv.scss";
+import Competences from "../components/cv/Competences";
 
 function Cv() {
   return (
@@ -12,9 +13,11 @@ function Cv() {
         <Header user={User} />
         <div className="container">
           <Left user={User} />
-
           <div className="container_content">
             <Content />
+          </div>
+          <div className="container_competences">
+            <Competences />
           </div>
         </div>
       </div>
