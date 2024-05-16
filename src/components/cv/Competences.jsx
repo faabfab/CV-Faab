@@ -1,9 +1,8 @@
-import competences from "./../../datas/competences.json";
 import "./../../scss/cv/competences.scss";
 
-const Competences = () => {
+const Competences = ({ competences }) => {
   return (
-    <div>
+    <div className="les-competences">
       <h2>Compétences</h2>
 
       {competences.map((competence, i) => {

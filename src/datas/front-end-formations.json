@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Développeur d'application - JavaScript React",
+    "organisme": "OpenClassrooms",
+    "projets": [
+      {
+        "title": "Développez un tableau de bord d'analytics avec React",
+        "projectName": "SportSee",
+        "logo": "sportsee.png",
+        "objectifs": [
+          "Assurer la qualité des données d'une application",
+          "Développer des éléments graphiques avancés à l'aide de la bibliothèque Recharts",
+          "Interagir avec un service Web"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/P12-SportSee_Front-end",
+
+        "url": "#"
+      },
+      {
+        "title": "Développez une application Web avec React et React Router",
+        "projectName": "Kasa",
+        "logo": "kasa.png",
+        "objectifs": [
+          "Créer des composants avec React",
+          "Développer les routes d'une application web avec React Router",
+          "Initialiser une application web avec un framework"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/OC-P11-kasa/tree/master",
+        "url": ""
+      },
+      {
+        "title": "Définissez les besoins pour une app de soutien scolaire",
+        "projectName": "Learn@Home",
+        "logo": "learnathome.png",
+        "objectifs": [
+          "Créer une maquette pour un client",
+          "Identifier les besoins de l'application à partir d'un cahier des charges",
+          "Modéliser une solution technique pour un client",
+          "Contribuer à un projet en utilisant une méthodologie agile"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/OC-P11-kasa/tree/master",
+        "url": ""
+      },
+      {
+        "title": "Debugger et testez un SaaS RH",
+        "projectName": "Billed",
+        "logo": "billed.png",
+        "objectifs": [
+          "Écrire des tests unitaires avec JavaScript",
+          "Rédiger un plan de test end-to-end manuel",
+          "Debugger une application web avec le Chrome Debugger",
+          "Écrire des tests d'intégration avec JavaScript"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/Billed-app-FR-Front",
+        "url": ""
+      },
+      {
+        "title": "Développez un algorithme de recherche en JavaScript",
+        "projectName": "Les petits plats",
+        "logo": "lespetitsplats.png",
+        "objectifs": [
+          "Analyser un problème informatique",
+          "Développer un algorithme pour résoudre un problème"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/P7-Les_petits_plats",
+        "url": ""
+      },
+      {
+        "title": "Créez un site accessible pour une plateforme de photographes",
+        "projectName": "FishEye",
+        "logo": "fisheye.png",
+        "objectifs": [
+          "Assurer l'accessibilité d'un site web",
+          "Développer une application web modulaire avec des design patterns",
+          "Écrire du code JavaScript maintenable",
+          "Gérer les évènements d'un site avec JavaScript"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/Front-End-Fisheye",
+        "url": ""
+      },
+      {
+        "title": "Créez une landing page avec Javascript",
+        "projectName": "GameOn",
+        "logo": "gameon.png",
+        "objectifs": ["Programmer en JavaScript"],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/GameOn-website-FR",
+        "url": ""
+      },
+      {
+        "title": "Dynamisez une page web avec des animations CSS",
+        "projectName": "ohmyfood",
+        "logo": "ohmyfood.png",
+        "objectifs": [
+          "Mettre en œuvre des effets CSS graphiques avancés",
+          "Assurer la cohérence graphique d'un site web",
+          "Mettre en place une structure de navigation pour un site web",
+          "Mettre en place son environnement Front-End",
+          "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/faabfab.github.io",
+        "url": ""
+      },
+      {
+        "title": "Transformez une maquette en site web avec HTML & CSS",
+        "projectName": "Booki",
+        "logo": "booki.png",
+        "objectifs": [
+          "Implémenter une interface responsive",
+          "Intégrer du contenu conformément à une maquette"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/faabfab.github.io",
+        "url": ""
+      }
+    ]
+  }
+]

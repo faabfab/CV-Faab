@@ -2,9 +2,11 @@ import React from "react";
 import Header from "./../components/cv/Header";
 import User from "./../datas/user.json";
 import Left from "../components/cv/Left";
-import Content from "../components/cv/Content";
+import FormationFrontEnd from "../components/cv/FormationFrontEnd";
 import "./../scss/cv/cv.scss";
 import Competences from "../components/cv/Competences";
+import competencesData from "./../datas/competences.json";
+import frontEndFormations from "./../datas/front-end-formations.json";
 
 function Cv() {
   return (
@@ -14,10 +16,10 @@ function Cv() {
         <div className="container">
           <Left user={User} />
           <div className="container_content">
-            <Content />
+            <FormationFrontEnd formations={frontEndFormations} />
           </div>
           <div className="container_competences">
-            <Competences />
+            <Competences competences={competencesData} />
           </div>
         </div>
       </div>
