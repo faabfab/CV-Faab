@@ -28,7 +28,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/OC-P11-kasa/tree/master",
-        "url": ""
+        "url": "https://oc-react-p11-kasa.netlify.app/"
       },
       {
         "title": "Définissez les besoins pour une app de soutien scolaire",
@@ -42,7 +42,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/OC-P11-kasa/tree/master",
-        "url": ""
+        "url": "https://ocp10learnathome.netlify.app"
       },
       {
         "title": "Debugger et testez un SaaS RH",
@@ -56,7 +56,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/Billed-app-FR-Front",
-        "url": ""
+        "url": "#"
       },
       {
         "title": "Développez un algorithme de recherche en JavaScript",
@@ -68,7 +68,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/P7-Les_petits_plats",
-        "url": ""
+        "url": "https://ocp7lespetitsplats.netlify.app"
       },
       {
         "title": "Créez un site accessible pour une plateforme de photographes",
@@ -82,7 +82,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/Front-End-Fisheye",
-        "url": ""
+        "url": "https://ocp5fisheye.netlify.app"
       },
       {
         "title": "Créez une landing page avec Javascript",
@@ -91,7 +91,7 @@
         "objectifs": ["Programmer en JavaScript"],
         "evaluation": "",
         "github": "https://github.com/faabfab/GameOn-website-FR",
-        "url": ""
+        "url": "https://ocp4gameon.netlify.app"
       },
       {
         "title": "Dynamisez une page web avec des animations CSS",
@@ -106,7 +106,7 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/faabfab.github.io",
-        "url": ""
+        "url": "https://ocp3ohmyfood.netlify.app"
       },
       {
         "title": "Transformez une maquette en site web avec HTML & CSS",
