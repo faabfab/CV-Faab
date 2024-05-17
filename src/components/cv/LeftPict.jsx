@@ -1,9 +1,9 @@
-const LeftPict = ({ pict, city, birthdate }) => {
+const LeftPict = ({ pict, city, cp }) => {
   return (
     <div className="left_content">
       <img src={pict} />
       <div className="left_content_location">
-        {birthdate} | {city}
+        {cp} {city}
       </div>
     </div>
   );
