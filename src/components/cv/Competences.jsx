@@ -3,7 +3,9 @@ import "./../../scss/cv/competences.scss";
 const Competences = ({ competences }) => {
   return (
     <div className="les-competences">
-      <h2>Compétences</h2>
+      <h2>
+        <i className="fa-solid fa-code"></i> Compétences
+      </h2>
 
       {competences.map((competence, i) => {
         return (

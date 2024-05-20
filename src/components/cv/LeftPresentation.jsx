@@ -1,7 +1,9 @@
 const LeftPresentation = ({ presentation }) => {
   return (
     <div className="left_content_presentation">
-      <h2>Présentation</h2>
+      <h2>
+        <i className="fa-solid fa-circle-info"></i> Présentation
+      </h2>
       <p>{presentation}</p>
     </div>
   );

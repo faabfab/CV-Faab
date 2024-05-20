@@ -23,7 +23,8 @@
       text-align: center;
     }
     &_contact,
-    &_presentation {
+    &_presentation,
+    &_studies {
       padding-left: 10px;
       padding-right: 10px;
       position: relative;
@@ -57,6 +58,26 @@
         margin: 0px;
         margin-top: 5px;
         font-size: 13px;
+      }
+    }
+    &_studies {
+      & ul {
+        margin-top: 5px;
+        padding-left: 0px;
+        list-style-type: none;
+        & li {
+          margin-bottom: 5px;
+          font-size: 13px;
+          &::before {
+            content: "›";
+            padding-right: 3px;
+            color: $dark-grey;
+          }
+          & span {
+            font-size: 10px;
+            padding-left: 8px;
+          }
+        }
       }
     }
   }

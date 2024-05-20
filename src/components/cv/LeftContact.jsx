@@ -3,7 +3,9 @@ import bBg from "./../../scss/cv/img/black-bg.png";
 const LeftContact = ({ email, tel }) => {
   return (
     <div className="left_content_contact">
-      <h2>Contact</h2>
+      <h2>
+        <i className="fa-solid fa-address-card"></i> Contact
+      </h2>
       <div className="left_content_contact_items">
         <div className="left_content_contact_items_item">
           <img src={bBg} alt="" width="150px" height="26px" />
