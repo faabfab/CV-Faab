@@ -52,6 +52,10 @@
           {
             "name": "Postman",
             "badge": "postman"
+          },
+          {
+            "name": "Swagger",
+            "badge": "swagger"
           }
         ]
       }

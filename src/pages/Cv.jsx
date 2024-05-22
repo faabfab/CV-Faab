@@ -7,6 +7,7 @@ import "./../scss/cv/cv.scss";
 import Competences from "../components/cv/Competences";
 import competencesData from "./../datas/competences.json";
 import frontEndFormations from "./../datas/front-end-formations.json";
+import Hobbies from "../components/cv/Hobbies";
 
 function Cv() {
   return (
@@ -20,6 +21,7 @@ function Cv() {
           </div>
           <div className="container_competences">
             <Competences competences={competencesData} />
+            <Hobbies userHobbies={User.hobbies} />
           </div>
         </div>
       </div>

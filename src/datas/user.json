@@ -26,5 +26,22 @@
       "city": "Montpellier",
       "date": "1998"
     }
+  ],
+  "hobbies": [
+    {
+      "name": "Musique",
+      "text": "Pratique la guitare tout style.",
+      "icon": "fa-guitar"
+    },
+    {
+      "name": "Art",
+      "text": "Pratique le dessin.",
+      "icon": "fa-palette"
+    },
+    {
+      "name": "DIY",
+      "text": "Fabrication et réparation d'objets utilitaires ou de décoration.",
+      "icon": "fa-screwdriver-wrench"
+    }
   ]
 }
