@@ -4,6 +4,20 @@
     "organisme": "OpenClassrooms",
     "projets": [
       {
+        "title": "Utilisez une API pour un compte utilisateur bancaire avec React",
+        "projectName": "ARGENTBANK",
+        "logo": "argentBankLogo.png",
+        "objectifs": [
+          "S'authentifier à une API",
+          "Implémenter un gestionnaire d'état dans une application React",
+          "Interagir avec une API",
+          "Modéliser une API"
+        ],
+        "evaluation": "",
+        "github": "https://github.com/faabfab/p13-argent-bank-front-end",
+        "url": "#"
+      },
+      {
         "title": "Développez un tableau de bord d'analytics avec React",
         "projectName": "SportSee",
         "logo": "sportsee.png",
@@ -14,7 +28,6 @@
         ],
         "evaluation": "",
         "github": "https://github.com/faabfab/P12-SportSee_Front-end",
-
         "url": "#"
       },
       {
