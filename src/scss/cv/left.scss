@@ -67,7 +67,7 @@
         list-style-type: none;
         & li {
           margin-bottom: 5px;
-          font-size: 13px;
+          font-size: 12px;
           &::before {
             content: "›";
             padding-right: 3px;
@@ -78,6 +78,11 @@
             padding-left: 8px;
           }
         }
+      }
+      & img {
+        position: relative;
+        width: 30px;
+        padding-left: 5px;
       }
     }
   }

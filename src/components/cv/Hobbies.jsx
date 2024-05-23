@@ -1,7 +1,6 @@
 import "./../../scss/cv/hobbies.scss";
 
 const Hobbies = ({ userHobbies }) => {
-  console.log(userHobbies);
   return (
     <div className="hobbies">
       <hr />

@@ -3,6 +3,7 @@ import "./../../scss/cv/left.scss";
 import LeftContact from "./LeftContact";
 import LeftPict from "./LeftPict";
 import LeftPresentation from "./LeftPresentation";
+import LeftSocials from "./LeftSocials";
 import LeftStudies from "./LeftStudies";
 
 const Left = ({ user }) => {
@@ -13,6 +14,7 @@ const Left = ({ user }) => {
       <LeftContact email={user.email} tel={user.tel} />
       <LeftPresentation presentation={user.presentation} />
       <LeftStudies studies={user.studies} />
+      <LeftSocials links={user.links} />
     </div>
   );
 };
