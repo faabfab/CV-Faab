@@ -1,6 +1,6 @@
 import "./../../scss/cv/freelance.scss";
 
-const FreelanceContent = () => {
+const FreelanceContent = ({ freelanceOld }) => {
   const dropDown = () => {
     const chevronUp = document.querySelector(".fa-chevron-up");
     const freelanceContent = document.querySelector(".freelance_content");
@@ -17,7 +17,9 @@ const FreelanceContent = () => {
         <i className="fa-solid fa-chevron-up" onClick={dropDown}></i>
       </div>
       <div className="freelance_content">
-        <h3>Content</h3>
+        {freelanceOld.map((freelanceItem, index) => {
+          return <p key={index}>{freelanceItem.site}</p>;
+        })}
       </div>
     </div>
   );

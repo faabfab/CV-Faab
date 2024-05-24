@@ -8,7 +8,8 @@ import Competences from "../components/cv/Competences";
 import competencesData from "./../datas/competences.json";
 import frontEndFormations from "./../datas/front-end-formations.json";
 import Hobbies from "../components/cv/Hobbies";
-import FreelanceContent from "../components/cv/FreelanceContent";
+import FreelanceOldContent from "../components/cv/FreelanceOldContent";
+import freelanceOld from "./../datas/freelance-old.json";
 
 function Cv() {
   return (
@@ -19,7 +20,7 @@ function Cv() {
           <Left user={User} />
           <div className="container_content">
             <FormationFrontEnd formations={frontEndFormations} />
-            <FreelanceContent />
+            <FreelanceOldContent freelanceOld={freelanceOld} />
           </div>
           <div className="container_competences">
             <Competences competences={competencesData} />
