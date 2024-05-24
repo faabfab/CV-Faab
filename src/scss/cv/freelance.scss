@@ -1,0 +1,25 @@
+@import "./utils.scss";
+
+.rotation {
+  rotate: 180deg;
+}
+
+.freelance {
+  margin-top: 40px;
+  &_dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & h2 {
+      text-decoration: underline;
+    }
+    & i {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+  &_content {
+    display: none;
+    transition: 0.3s;
+  }
+}
