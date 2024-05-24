@@ -10,7 +10,7 @@
   "pict": "./pict/cv.png",
   "city": "Montpellier",
   "cp": "34000",
-  "presentation": "Webdesigner indépendant depuis 2008, après des études en informatique et des années de travail en agence de communication.\n\n Je conçois et réalise des projets internet et de communication sur tout support matériel et virtuel.\n\n En utilisant le plus possible les dernières technologies.",
+  "presentation": "Développeur frontend depuis peu, webdesigner indépendant depuis 2008, après des études en informatique et des années de travail en agence de communication. Je conçois et réalise des projets internet. En utilisant le plus possible les dernières technologies.",
   "studies": [
     {
       "name": "Développeur d'application - JavaScript React",
@@ -61,6 +61,16 @@
       "name": "Malt",
       "icon": "malt-color.svg",
       "url": "https://www.malt.fr/profile/fabriceescobar"
+    },
+    {
+      "name": "Freelancer",
+      "icon": "freelancer-color.svg",
+      "url": "https://www.fr.freelancer.com/u/fabrice34000"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github-color.svg",
+      "url": "https://github.com/faabfab"
     }
   ]
 }
