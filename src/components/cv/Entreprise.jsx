@@ -13,7 +13,7 @@ const Entreprise = ({ jobsOld }) => {
 
   return (
     <div className="freelance">
-      <div className="freelance_dropdown">
+      <div className="freelance_dropdown" onClick={dropDown}>
         <h2>
           Emplois salariés <span>avant 2008</span>
         </h2>

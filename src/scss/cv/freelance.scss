@@ -11,6 +11,7 @@
     align-items: center;
     padding-bottom: 20px;
     justify-content: space-between;
+    cursor: pointer;
     & h2 {
       text-decoration: underline;
       & span {
@@ -18,7 +19,6 @@
       }
     }
     & i {
-      cursor: pointer;
       transition: 0.3s;
     }
   }

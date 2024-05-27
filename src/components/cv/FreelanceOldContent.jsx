@@ -13,11 +13,11 @@ const FreelanceContent = ({ freelanceOld }) => {
 
   return (
     <div className="freelance">
-      <div className="freelance_dropdown">
+      <div className="freelance_dropdown" onClick={dropDown}>
         <h2>
           Travaux freelance <span>depuis 2008</span>
         </h2>
-        <i className="fa-solid fa-chevron-up free" onClick={dropDown}></i>
+        <i className="fa-solid fa-chevron-up free"></i>
       </div>
       <div className="freelance_content">
         <hr />
