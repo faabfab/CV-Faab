@@ -9,6 +9,7 @@
   &_dropdown {
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
     justify-content: space-between;
     & h2 {
       text-decoration: underline;
@@ -21,5 +22,45 @@
   &_content {
     display: none;
     transition: 0.3s;
+    &_job {
+      &_header {
+        display: flex;
+        justify-content: space-between;
+        & h3 {
+          & span {
+            font-size: 14px;
+          }
+        }
+        & img {
+          width: 50px;
+        }
+      }
+      & code {
+        font-size: 11px;
+        background-color: $light-grey;
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+      &_text {
+        font-size: 11px;
+        &_link {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 10px;
+          & p {
+            margin: 0;
+            font-size: 13px;
+          }
+          & i {
+            font-size: initial;
+            color: $header-bg;
+          }
+        }
+        & ul {
+          margin: 0;
+        }
+      }
+    }
   }
 }

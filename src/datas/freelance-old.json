@@ -1,102 +1,116 @@
 [
-    {
-        "id":"1",
-        "site": "SunsetVillas.fr",
-        "url": "http://sunsetvillas.fr",
-        "description": "Site de location de villas de standing en Guadeloupe",
-        "vignette": "sunset.jpg",
-        "work":[
-            "Création de la structure.",
-            "Découpage de la maquette graphique.",
-            "Intégration des éléments graphiques.",
-            "Développement du site web.",
-            "Webmastering."
-        ]
-    },
-    {
-        "id":"2",
-        "site": "Ecosoley.Fr",
-        "url": "https://ecosoley.fr/",
-        "description": "Site de l'entreprise Ecosoley basée en Guadeloupe.",
-        "vignette": "ecosoley.jpg",
-        "work":[
-            "Création de la structure.",
-            "Découpage de la maquette graphique.",
-            "Intégration des éléments graphiques.",
-            "Développement du site web.",
-            "Formulaires de demande de devis détaillé et de demandes de subvention",
-            "Webmastering."
-        ]
-    },
-    {
-        "id":"3",
-        "site": "Plomberie DOM",
-        "url": "http://www.plomberiedom.com/",
-        "description": "Site des magasins de plomberie situés en Guadeloupe, Martinique et Guyane.",
-        "vignette": "lgdlsdb.jpg",
-        "work":[
-            "Tranfert du site",
-            "Mise à niveau PHP 7.",
-            "Webmastering.",
-            "Mailing mensuels."
-        ]
-    },
-    {
-        "id":"4",
-        "site": "Zawag.Fr",
-        "url": "http://zawag.fr/",
-        "description": "Site portfolio du graphiste Denis Harre",
-        "vignette": "zawag.jpg",
-        "work":[
-            "Création de la structure.",
-            "Découpage de la maquette graphique.",
-            "Intégration des éléments graphiques.",
-            "Développement du site web.",
-            "propulsé par Pluxml."
-        ]
-    },
-    {
-        "id":"5",
-        "site": "Florence-H.Fr",
-        "url": "http://florence-h.fr/",
-        "description": "Site portfolio de l'artiste.",
-        "vignette": "floh.jpg",
-        "work":[
-            "Conception graphique.",
-            "Création de la structure.",
-            "Découpage de la maquette graphique.",
-            "Intégration des éléments graphiques.",
-            "Développement du site web.",
-            "Propulsé par Pluxml.",
-            "Webmastering."
-        ]
-    },
-    {
-        "id":"6",
-        "site": "Pinups Insolites.Com",
-        "url": "http://pinups-insolites.com/",
-        "description": "Site portfolio des pinups insolites de Florence H",
-        "vignette": "pinups.jpg",
-        "work":[
-            "Conception graphique.",
-            "Création de la structure.",
-            "Découpage de la maquette graphique.",
-            "Intégration des éléments graphiques.",
-            "Développement du site web.",
-            "Propulsé par Pluxml.",
-            "Webmastering."
-        ]
-    },
-    {
-        "id":"7",
-        "site": "Cloison.Fr",
-        "url": "http://cloison.fr/",
-        "description": "Site de la société Rouzés fabricant de cloisons.",
-        "vignette": "cloison.jpg",
-        "work":[
-            "Création de la structure.",
-            "Développement du site web.",
-            "Propulsé par Spip."
-        ]
-    }
+  {
+    "id": "1",
+    "site": "SunsetVillas.fr",
+    "url": "http://sunsetvillas.fr",
+    "description": "Site de location de villas de standing en Guadeloupe",
+    "vignette": "sunset.jpg",
+    "date": "Juin - Juillet 2018",
+    "location": "Guadeloupe",
+    "work": [
+      "Création de la structure.",
+      "Découpage de la maquette graphique.",
+      "Intégration des éléments graphiques.",
+      "Développement du site web.",
+      "Webmastering."
+    ]
+  },
+  {
+    "id": "2",
+    "site": "Ecosoley.Fr",
+    "url": "https://ecosoley.fr/",
+    "description": "Site de l'entreprise Ecosoley basée en Guadeloupe.",
+    "vignette": "ecosoley.jpg",
+    "date": "2018-2021",
+    "location": "Guadeloupe",
+    "work": [
+      "Création de la structure.",
+      "Découpage de la maquette graphique.",
+      "Intégration des éléments graphiques.",
+      "Développement du site web.",
+      "Formulaires de demande de devis détaillé et de demandes de subvention",
+      "Webmastering."
+    ]
+  },
+  {
+    "id": "3",
+    "site": "Plomberie DOM",
+    "url": "http://www.plomberiedom.com/",
+    "description": "Site des magasins de plomberie situés en Guadeloupe, Martinique et Guyane.",
+    "vignette": "lgdlsdb.jpg",
+    "date": "2015-2021",
+    "location": "Guadeloupe",
+    "work": [
+      "Tranfert du site",
+      "Mise à niveau PHP 7.",
+      "Webmastering.",
+      "Mailing mensuels."
+    ]
+  },
+  {
+    "id": "4",
+    "site": "Zawag.Fr",
+    "url": "http://zawag.fr/",
+    "description": "Site portfolio du graphiste Denis Harre",
+    "vignette": "zawag.jpg",
+    "date": "2017 - 2018",
+    "location": "Montpellier",
+    "work": [
+      "Création de la structure.",
+      "Découpage de la maquette graphique.",
+      "Intégration des éléments graphiques.",
+      "Développement du site web.",
+      "propulsé par Pluxml."
+    ]
+  },
+  {
+    "id": "5",
+    "site": "Florence-H.Fr",
+    "url": "http://florence-h.fr/",
+    "description": "Site portfolio de l'artiste.",
+    "vignette": "floh.jpg",
+    "date": "Depuis 2015",
+    "location": "Montpellier",
+    "work": [
+      "Conception graphique.",
+      "Création de la structure.",
+      "Découpage de la maquette graphique.",
+      "Intégration des éléments graphiques.",
+      "Développement du site web.",
+      "Propulsé par Pluxml.",
+      "Webmastering."
+    ]
+  },
+  {
+    "id": "6",
+    "site": "Pinups Insolites.Com",
+    "url": "http://pinups-insolites.com/",
+    "description": "Site portfolio des pinups insolites de Florence H",
+    "vignette": "pinups.jpg",
+    "date": "Depuis 2015",
+    "location": "Montpellier",
+    "work": [
+      "Conception graphique.",
+      "Création de la structure.",
+      "Découpage de la maquette graphique.",
+      "Intégration des éléments graphiques.",
+      "Développement du site web.",
+      "Propulsé par Pluxml.",
+      "Webmastering."
+    ]
+  },
+  {
+    "id": "7",
+    "site": "Cloison.Fr",
+    "date": "2015 - 2017",
+    "location": "Montpellier",
+    "url": "http://cloison.fr/",
+    "description": "Site de la société Rouzés fabricant de cloisons.",
+    "vignette": "cloison.jpg",
+    "work": [
+      "Création de la structure.",
+      "Développement du site web.",
+      "Propulsé par Spip."
+    ]
+  }
 ]

@@ -4,8 +4,11 @@ const FreelanceContent = ({ freelanceOld }) => {
   const dropDown = () => {
     const chevronUp = document.querySelector(".fa-chevron-up");
     const freelanceContent = document.querySelector(".freelance_content");
+    const left = document.getElementById("left-content");
+    const leftImgBg = document.querySelector(".left img");
     chevronUp.classList.toggle("rotation");
     freelanceContent.classList.toggle("visible");
+    leftImgBg.setAttribute("style", `height:${left.offsetHeight}px !important`);
   };
 
   return (
@@ -17,8 +20,41 @@ const FreelanceContent = ({ freelanceOld }) => {
         <i className="fa-solid fa-chevron-up" onClick={dropDown}></i>
       </div>
       <div className="freelance_content">
+        <hr />
         {freelanceOld.map((freelanceItem, index) => {
-          return <p key={index}>{freelanceItem.site}</p>;
+          const logo = "./img/freelance-old/" + freelanceItem.vignette;
+          return (
+            <div className="freelance_content_job" key={index}>
+              <div className="freelance_content_job_header">
+                <h3>
+                  Développeur: <span>{freelanceItem.site}</span>
+                </h3>
+                <img src={logo} alt={freelanceItem.site} />
+              </div>
+              <code>{freelanceItem.date}</code>&nbsp;&nbsp;
+              <code>{freelanceItem.location}</code>
+              <div className="freelance_content_job_text">
+                <div className="freelance_content_job_text_link">
+                  <p>
+                    <b>{freelanceItem.description}</b> :
+                  </p>
+                  <a
+                    href={freelanceItem.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+                <ul>
+                  {freelanceItem.work.map((work, index) => {
+                    return <li key={index}>{work}</li>;
+                  })}
+                </ul>
+              </div>
+              <hr />
+            </div>
+          );
         })}
       </div>
     </div>
