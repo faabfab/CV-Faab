@@ -1,0 +1,18 @@
+[
+  {
+    "poste": "Graphiste exécutant",
+    "name": "Melody healthcare",
+    "logo": "melody.png",
+    "date": "2000 - 2005",
+    "city": "Montpellier",
+    "missions": [
+      "Découpage des maquettes.",
+      "Montages HTML.",
+      "Réalisations des feuilles de style.",
+      "Préparations des fichiers HTML pour le développement.",
+      "Réalisations d'illustration médicales sur Illustrator.",
+      "Animations sur Flash.",
+      "Réalisation de CDRom médicaux."
+    ]
+  }
+]

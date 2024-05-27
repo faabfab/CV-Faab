@@ -13,6 +13,9 @@
     justify-content: space-between;
     & h2 {
       text-decoration: underline;
+      & span {
+        font-size: 14px;
+      }
     }
     & i {
       cursor: pointer;

@@ -2,7 +2,7 @@ import "./../../scss/cv/freelance.scss";
 
 const FreelanceContent = ({ freelanceOld }) => {
   const dropDown = () => {
-    const chevronUp = document.querySelector(".fa-chevron-up");
+    const chevronUp = document.querySelector(".free");
     const freelanceContent = document.querySelector(".freelance_content");
     const left = document.getElementById("left-content");
     const leftImgBg = document.querySelector(".left img");
@@ -15,9 +15,9 @@ const FreelanceContent = ({ freelanceOld }) => {
     <div className="freelance">
       <div className="freelance_dropdown">
         <h2>
-          Freelance works <span>depuis 2008</span>
+          Travaux freelance <span>depuis 2008</span>
         </h2>
-        <i className="fa-solid fa-chevron-up" onClick={dropDown}></i>
+        <i className="fa-solid fa-chevron-up free" onClick={dropDown}></i>
       </div>
       <div className="freelance_content">
         <hr />
