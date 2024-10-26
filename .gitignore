@@ -22,4 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Faab
 /.pnotes
+/.kanbn_boards
+/.vscode
+.env
