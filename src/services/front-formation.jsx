@@ -12,7 +12,7 @@ export async function getFrontFormation() {
   const response = await fetch(uri, requestOptions);
   if (response.status === 200) {
     const data = await response.json();
-    return data[0];
+    return data;
   }
   return "error";
 }

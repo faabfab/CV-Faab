@@ -1,6 +1,23 @@
+import { useEffect, useState } from "react";
 import "./../../scss/cv/freelance.scss";
+import { getOldFreelanceWork } from "../../services/old-freelance-works";
 
-const FreelanceContent = ({ freelanceOld }) => {
+const FreelanceContent = () => {
+  const [oldFreelanceData, setOldFreelanceData] = useState([]);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    const oldFreelanceFetch = async () => {
+      const responseOk = await getOldFreelanceWork();
+      if (responseOk) {
+        setOldFreelanceData(responseOk);
+      } else {
+        setError(true);
+      }
+    };
+    oldFreelanceFetch();
+  }, []);
+
   const dropDown = () => {
     const chevronUp = document.querySelector(".free");
     const freelanceContent = document.querySelector(".freelance_content");
@@ -11,6 +28,7 @@ const FreelanceContent = ({ freelanceOld }) => {
     leftImgBg.setAttribute("style", `height:${left.offsetHeight}px !important`);
   };
 
+  if (error) return <h2>Erreur</h2>;
   return (
     <div className="freelance">
       <div className="freelance_dropdown" onClick={dropDown}>
@@ -21,8 +39,8 @@ const FreelanceContent = ({ freelanceOld }) => {
       </div>
       <div className="freelance_content">
         <hr />
-        {freelanceOld.map((freelanceItem, index) => {
-          const logo = "./img/freelance-old/" + freelanceItem.vignette;
+        {oldFreelanceData.map((freelanceItem, index) => {
+          const logo = freelanceItem.vignette;
           return (
             <div className="freelance_content_job" key={index}>
               <div className="freelance_content_job_header">

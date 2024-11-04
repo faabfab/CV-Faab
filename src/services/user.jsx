@@ -70,6 +70,10 @@ export async function getUserLinks() {
   const requestOptions = {
     method: "GET",
     redirect: "follow",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    mode: "cors",
   };
   const response = await fetch(linksURI, requestOptions);
   if (response.status === 200) {
